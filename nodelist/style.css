@@ -1,0 +1,22 @@
+.body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(38, 80, 66);
+}
+h1{
+    background-color: white;
+}
+.container{
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    width: 520px;
+    height: 520px;
+    background-color: rgb(255, 255, 255);
+}
+.paragrafos{
+    background-color: white;
+}
+.cor{
+    background-color: rgb(38, 80, 66) !important;
+}
