@@ -1,15 +1,10 @@
-function ifNull(){
-    const person = {
-        name: "Leonardo",
-        surname: null,
-        age: 23
-    }
+function ifNull(originalObject){
 
-    for(i in person){
-        if(person[i] == null){
-           delete person[i];
+    for(i in originalObject){
+        if(originalObject[i] == null){
+           delete originalObject[i];
         }
     }
-    console.log(person)
+    console.log(originalObject)
 }
-ifNull()
+ifNull({name: "Leonardo", surname: null, age: 23});
