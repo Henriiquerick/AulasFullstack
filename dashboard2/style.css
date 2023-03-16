@@ -1,0 +1,61 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 24px;
+}
+
+.container{
+    padding: 50px 0 50px 100px !important;
+    align-content: center;
+}
+
+.firsts{
+    margin: 25px;
+    padding: 15px;
+    border: 10px;
+}
+.card{
+    height: 121px;
+    width: 214px;
+    border: 1px;
+    border-radius: 4px;
+    padding: 10px;
+    align-items: center;
+}
+
+.ticket1{
+   background-color: rgba(255, 0, 0, 0.5);
+   align-items: center;
+}
+.ticket2{
+    background-color: rgba(158, 100, 255, 0.5);
+    align-items: center;
+}
+.ticket3{
+    background-color: rgba(255, 92, 0, 0.5);
+    align-items: center;
+}
+.ticket4{
+    background-color: rgba(36, 255, 0, 0.5);
+    align-items: center;
+}
+
+.card-title{
+    font-size: 40px;
+    line-height: 46.88px;
+}
+
+.card-subtitle{
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.graphics{
+    align-items: center;
+    align-content: center;
+}
+
+.header-graphics{
+    align-content: right;
+}
