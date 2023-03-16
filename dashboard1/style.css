@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-div{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.flex-card{
+    margin: 8px;
+    border: 3px solid red;
+    border-radius: 15%;
+    background-color: rgba(160, 12, 37, 0.685);
+    flex: 1;
+}
+
+.flex-card::selection(3){
+    background-color: aqua;
+}
+
+.intern-flex-card{
+    height: 100%;
+    width: 100%;
+}
+
+.number-card{
+    font-size: 25px;
+    margin: 5px;
+    padding: 10px 5px 10px 5px;
+}
+
+.font-card{
+    font-size: 15px;
+    margin: 5px;
+}
