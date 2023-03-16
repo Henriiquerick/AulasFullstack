@@ -52,10 +52,43 @@ h2{
 }
 
 .graphics{
-    align-items: center;
-    align-content: center;
+    text-align: center;
+    border: 1px solid rgba(63, 61, 86, 0.1);
+    height: 247px;
+    width: 612px;
 }
 
 .header-graphics{
-    align-content: right;
+    text-align: end !important;
+    padding: 15px;
+}
+
+.header-graphics a{
+    text-decoration: none;
+}
+
+.header-graphics a:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.603);
+}
+
+
+.header-font{
+    margin: 10px;
+    font-style: normal;
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(24, 24, 24, 1);
+}
+
+.col-md-2{
+    padding: 5px 0 5px 5px;
+}
+
+.col-md-2 span{
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    font-style: normal;
 }
