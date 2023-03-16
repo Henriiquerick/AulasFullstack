@@ -8,6 +8,7 @@ h2{
 h4{
     font-size: 12px;
     line-height: 11px;
+    margin-top: 10px;
 }
 
 .container{
@@ -128,6 +129,12 @@ h4{
     text-align: initial;
 }
 
+.direction-left span{
+    text-align: end;
+    align-items: end;
+    align-content: end;
+}
+
 .direction-left h5{
    color: rgba(61, 61, 61, 1);
    font-size: 11px;
@@ -137,7 +144,6 @@ h4{
 .name-perfil{
     font-size: 16px;
     line-height: 14px;
-    margin-right: 100px;
     color: rgba(24, 24, 24, 1);
 }
 
