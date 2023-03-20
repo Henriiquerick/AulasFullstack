@@ -1,0 +1,147 @@
+$purple: rgb(132,14,201);
+
+body{
+    background-color: rgb(34,34,34);
+    color: white;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding:15px;
+    max-width: 1076px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+#inscreva-se{
+    border: 2px solid $purple;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+#inscreva-se:hover{
+    background-color: $purple;
+    color: white;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: $purple;
+    transition: 0.5s all;
+}
+
+h1{
+    font-weight: 200;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+h2 span{
+    color: purple;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    width: 580px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+input::placeholder{
+    color: rgb(65, 61, 61);
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: $purple;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    background-color: white;
+    color: $purple;
+    transition: 0.8s;
+}
+
+@media screen and (max-width: 767px){
+    header{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 38px;
+    }
+
+    form{
+        margin: 0 auto;
+    }
+
+    input{
+        align-self: center;
+    }
+
+    img{
+        display: none;
+    }
+
+    ul{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 780px){
+    img{
+        margin-top: 30px;
+        display: flex;
+    }
+}
