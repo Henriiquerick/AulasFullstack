@@ -65,6 +65,7 @@ main{
 
 h2 span{
     color: purple;
+    display: inline-block;
 }
 
 p{
@@ -111,7 +112,7 @@ form [type="submit"]:hover{
     transition: 0.8s;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 780px){
     header{
         flex-direction: column;
     }
@@ -136,12 +137,5 @@ form [type="submit"]:hover{
 
     ul{
         text-align: center;
-    }
-}
-
-@media screen and (max-width: 780px){
-    img{
-        margin-top: 30px;
-        display: flex;
     }
 }
